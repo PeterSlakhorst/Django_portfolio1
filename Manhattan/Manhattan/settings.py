@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'Phase1',   # added the app for Phase1
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
