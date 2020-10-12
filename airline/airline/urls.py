@@ -1,4 +1,4 @@
-"""Manhattan URL Configuration
+"""airline URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -18,7 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Phase1/', include("Phase1.urls")),  # this to include the urls for Phase1
-    path('tasks/', include("tasks.urls")),
-    path('newyear/', include("newyear.urls")),
+    path('flights/', include("flights.urls")),
 ]
